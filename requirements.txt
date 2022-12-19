@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+feature_engine
+sklearn
+cleanlab
+catboost
+xgboost
+tqdm
+librosa
+gensim
+pyvi
