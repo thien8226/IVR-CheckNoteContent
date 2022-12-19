@@ -5,6 +5,8 @@
 conda create -n ivr python=3.8 -y
 conda activate ivr
 pip install -r requirements.txt
+
+git clone https://github.com/cleanlab/cleanlab.git
 ```
 
 ## Get stratified data
