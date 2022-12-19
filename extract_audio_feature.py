@@ -1,35 +1,10 @@
-import soundfile as sf
-import io
-from six.moves.urllib.request import urlopen
 import librosa
 import pandas as pd
 import tqdm
 import numpy as np
-from tensorflow.keras.utils import to_categorical
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense,Dropout,Activation,Flatten
-from tensorflow.keras.optimizers import Adam
-from sklearn import metrics
-from tensorflow.keras.callbacks import ModelCheckpoint
-from datetime import datetime 
-import math
 import pyloudnorm as pyln
 import csv
-from sklearn.metrics import accuracy_score
-import cleanlab
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import cross_val_predict
-from cleanlab.classification import CleanLearning
-from cleanlab.filter import find_label_issues
-from pyvad import vad, trim, split
-import librosa
-import matplotlib.pyplot as plt
-import IPython.display
-import requests
-import ffmpeg
+from pyvad import split
 import csv
 import os
 
